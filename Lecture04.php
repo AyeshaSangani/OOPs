@@ -1,6 +1,10 @@
+
+
+
+             .....Encapsulation......
 <?php
 
-   Encapsulation
+          
   
 class Demo1(
 
@@ -25,6 +29,19 @@ $demo1= new Demo1();
 $demo1->display();
 
 
-class Demo2()
+                               ....Inheritance....
+
+class Demo2 extands Demo1 {
+   public $name;
+
+    public function display2(){
+       echo $this-.name2 = "Ali";
+    }
+
+}
+
+$demo2 = new Demo2();
+$demo2 = display2();
+$demo = display()
 
 ?>
