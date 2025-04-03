@@ -7,6 +7,7 @@
 
     private function display(){
         echo $this->name = "Ahmed";
+       echo "<br>";
     }
 
     function __construct()
